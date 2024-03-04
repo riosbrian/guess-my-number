@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="/public/img/logo.png"
+        alt="logo guess the number"
+        class="header__logo"
+      />
+      <button class="btn btn--reset">Reset</button>
+    </header>
+    <main class="guess">
+      <h1 class="guess__title heading-1">!Guess a number between 1 and 20!</h1>
+      <div class="guess__number-box"><span class="secret-number">?</span></div>
+    </main>
+    <section class="check">
+      <input type="number" class="check__input" min="1" max="20" />
+      <button class="btn btn--check">Check!</button>
+    </section>
+    <section class="game-info">
+      <p class="game-info__text game-info__message">😁 Start guessing...</p>
+      <p class="game-info__text game-info__label-score">
+        🪙 Score: <span class="score">20</span>
+      </p>
+      <p class="game-info__text game-info__label-highscore">
+        🥇 Highscore: <span class="highscore">0</span>
+      </p>
+    </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
