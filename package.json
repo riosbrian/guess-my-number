@@ -2,6 +2,7 @@
   "name": "guess-my-number",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://riosbrian/github.io/guess-my-number/",
   "type": "module",
   "scripts": {
     "dev": "vite",
